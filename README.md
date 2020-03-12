@@ -7,12 +7,12 @@
 [![PRs Welcome][prs-badge]][prs] [![Code of Conduct][coc-badge]][coc]
 
 ## The problem
-I needed a quick URL shortner and I wanted to do something open source. @kentcdodds did a really great video which inspired me. Ultimately his approach was more maximalist than I needed.
+I needed a quick URL shortener and I wanted to do something open source. @kentcdodds did a really great video which inspired me. Ultimately his approach was more maximalist than I needed.
 In his video he mentioned @CarlRosell's much more minimalist approach.
 I forked this from @CarlRosell.  
 ![GitHub forks](https://img.shields.io/github/forks/CarlRosell/netlify-short-url?label=Fork&style=social)
 
-This is a great way to get a URL shortner on your own domain quick and relatiavely easy to use.
+This is a great way to get a URL shortener on your own domain quick and relatiavely easy to use.
 
 ## This solution
 
@@ -26,3 +26,5 @@ handles the redirecting for you.
 ### netlify-short-url
 
 For more get inspired by watching [this video from Kent C. Dodds](https://rosell.io/kcd-video)
+Fork @kentcdodds [Netlify-shortener](https://github.com/kentcdodds/netlify-shortener)
+![GitHub forks](https://img.shields.io/github/forks/kentcdodds/netlify-shortener?label=Fork&style=social)
