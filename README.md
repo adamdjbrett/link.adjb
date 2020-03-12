@@ -1,9 +1,28 @@
-Check out the final version created by Kent https://github.com/kentcdodds/netlify-shortener
+[![Build Status][build-badge]][build]
+[![Code Coverage][coverage-badge]][coverage]
+[![version][version-badge]][package] [![downloads][downloads-badge]][npmtrends]
+[![MIT License][license-badge]][license]
 
-# netlify-short-url
+[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors)
+[![PRs Welcome][prs-badge]][prs] [![Code of Conduct][coc-badge]][coc]
 
-Just a test to see if I could use netlify's redirect as an url shortener.
+## The problem
+I needed a quick URL shortner and I wanted to do something open source. @kentcdodds did a really great video which inspired me. Ultimately his approach was more maximalist than I needed.
+In his video he mentioned @CarlRosell's much more minimalist approach.
+I forked this from @CarlRosell.  
+![GitHub forks](https://img.shields.io/github/forks/CarlRosell/netlify-short-url?label=Fork&style=social)
 
-Got the inspiration from watching [this video from Kent C. Dodds](https://rosell.io/kcd-video)
+This is a great way to get a URL shortner on your own domain quick and relatiavely easy to use.
 
-I started by just adding the `_redirects` file to check if that worked. Then I wanted to build something that I could edit outside of git, so I added [netlify-cms](https://github.com/netlify/netlify-cms) and a small build script to generate the `_redirects` file for me. That worked out okay, but in the end, it was not more comfortable than editing the file in git. All of that work is still on the [netlify-cms branch](https://rosell.io/cms-branch) if someone later wants to look at it.
+## This solution
+
+This relies on [Netlify's](https://www.netlify.com)
+[`_redirects`](https://www.netlify.com/docs/redirects/) file for building a
+super simple URL shortener where the URLs are managed on GitHub and Netlify
+handles the redirecting for you.
+
+**Check out the final version created by Kent https://github.com/kentcdodds/netlify-shortener**
+
+### netlify-short-url
+
+For more get inspired by watching [this video from Kent C. Dodds](https://rosell.io/kcd-video)
