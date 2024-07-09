@@ -1,10 +1,4 @@
-[![Build Status][build-badge]][build]
-[![Code Coverage][coverage-badge]][coverage]
-[![version][version-badge]][package] [![downloads][downloads-badge]][npmtrends]
-[![MIT License][license-badge]][license]
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7fdac296-3581-423c-9235-bb345eac0548/deploy-status)](https://app.netlify.com/sites/link-adjb/deploys)
-[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors)
-[![PRs Welcome][prs-badge]][prs] [![Code of Conduct][coc-badge]][coc]
 
 ## The problem
 I needed a quick URL shortener and I wanted to do something open source. @kentcdodds did a really great video which inspired me. Ultimately his approach was more maximalist than I needed.
